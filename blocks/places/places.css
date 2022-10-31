@@ -1,0 +1,9 @@
+.places{
+  margin: 92px auto 0;
+  width: 90%;
+  max-width: 984px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+}

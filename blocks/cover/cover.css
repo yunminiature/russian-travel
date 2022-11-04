@@ -1,0 +1,12 @@
+.cover{
+  width: 100%;
+  max-width: 1184px;
+  margin: 90px auto 0;
+  position: relative;
+  cursor: pointer;
+}
+
+.cover:hover .cover__background{
+  opacity: 0.2;
+  transition: opacity 1s;
+}

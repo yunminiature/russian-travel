@@ -9,17 +9,17 @@
 
 @media screen and (min-width: 1024px){
   .header{
-    width: calc(100vw - 96px);
+    width: calc(100% - 96px);
   }
 }
 @media screen and (max-width: 768px){
   .header{
-    width: calc(100vw - 48px);
+    width: calc(100% - 48px);
   }
 }
 @media screen and (max-width: 320px){
   .header{
     padding: 16px 0;
-    width: calc(100vw - 32px);
+    width: calc(100% - 32px);
   }
 }

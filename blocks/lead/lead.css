@@ -1,6 +1,9 @@
 .lead{
-  margin: 48px auto 0;
-  width: 100%;
+  margin: 32px auto 0;
+}
+
+.lead figure{
+  margin: 0;
 }
 
 @media screen and (min-width: 1280px){
@@ -9,8 +12,13 @@
     max-width: 984px;
   }
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
   .lead{
-    width: 90%;
+    width: calc(100% - 48px);
+  }
+}
+@media screen and (max-width: 320px){
+  .lead{
+    width: 100%;
   }
 }

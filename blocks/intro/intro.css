@@ -3,3 +3,15 @@
   width: 90%;
   max-width: 984px;
 }
+
+@media screen and (max-width: 768px){
+  .intro{
+    width: calc(100% - 48px);
+  }
+}
+@media screen and (max-width: 320px){
+  .intro{
+    margin: 64px auto;
+    width: calc(100% - 32px);
+  }
+}

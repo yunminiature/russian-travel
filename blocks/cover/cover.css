@@ -1,12 +1,32 @@
 .cover{
+  position: relative;
   width: 100%;
   max-width: 1184px;
+  height: 740px;
   margin: 90px auto 0;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
 
 .cover:hover .cover__background{
   opacity: 0.2;
   transition: opacity 1s;
+}
+
+@media screen and (max-width: 1184px){
+  .cover{
+    height: calc(100vw*0.625)
+  }
+}
+@media screen and (max-width: 320px){
+  .cover{
+      margin: 66px auto 0;
+  }
+}
+
+.cover a{
+  text-decoration: none;
 }

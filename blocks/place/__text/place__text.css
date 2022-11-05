@@ -1,5 +1,5 @@
 .place__text{
   display: flex;
   flex-direction: column;
-  row-gap: 26px;
+  row-gap: 25px;
 }

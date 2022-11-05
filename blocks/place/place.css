@@ -11,3 +11,8 @@
     grid-template-columns: repeat(auto-fit, minmax(320px, 100%));
   }
 }
+@media screen and (max-width: 320px){
+  .place{
+      grid-row-gap: 32px;
+  }
+}

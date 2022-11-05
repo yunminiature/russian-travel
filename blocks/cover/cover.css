@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 1184px){
   .cover{
-    height: calc(100vw*0.625)
+    height: calc(100vw*0.625);
   }
 }
 @media screen and (max-width: 320px){

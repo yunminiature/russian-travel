@@ -10,10 +10,6 @@
   z-index: 3;
 }
 
-.cover__background:hover h2{
-  opacity: 1;
-}
-
 @media screen and (max-width: 767px){
   .cover__title{
     max-width: 288px;

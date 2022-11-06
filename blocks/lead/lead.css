@@ -1,5 +1,5 @@
 .lead{
-  margin: 32px auto 0;
+  margin: 48px auto 0;
 }
 
 .lead figure{
@@ -12,12 +12,12 @@
     max-width: 984px;
   }
 }
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
   .lead{
-    width: calc(100% - 48px);
+    max-width: 928px;
   }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 768px){
   .lead{
     width: 100%;
   }
